@@ -9,7 +9,6 @@ public class Main {
         int pontuacao = 0;
 
         int numeroSorteado = random.nextInt(10) + 1;
-        System.out.println("Número sorteado: " + numeroSorteado);
 
         int palpiteUsuario = scanner.nextInt();
 
