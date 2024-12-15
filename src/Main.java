@@ -15,12 +15,12 @@ public class Main {
 
         if (numeroSorteado == palpiteUsuario) {
             pontuacao += 10;
-            System.out.println("Parabens você acertou o numero éra " + numeroSorteado);
+            System.out.println("Parabens você acertou! o número sorteado foi: " + numeroSorteado);
             System.out.println("Você ganhou 10 pontos!");
         } else if (Math.abs(numeroSorteado - palpiteUsuario) == 1) {
-            System.out.println("Você chegou muito perto mas errou por um");
+            System.out.println("Quase lá! Você estava a 1 de distância do número sorteado.");
             pontuacao += 5;
-            System.out.println("Você ganhou 5 pontos!");
+            System.out.println("Você ganhou 5 pontos");
         } else {
             System.out.println("Você errou o numero sorteado era: " + numeroSorteado);
         }
