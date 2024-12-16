@@ -41,8 +41,6 @@ public class Main {
                 System.out.println("Digite um número de 1 a 100:");
             }
 
-            System.out.println("Teste numero sorteado " + numeroSorteadoPorDificuldade);
-
             int palpiteUsuario = scanner.nextInt();
 
             if (numeroSorteadoPorDificuldade == palpiteUsuario) {
